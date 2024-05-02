@@ -2,9 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
+     
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li { list-style: none; }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a,
+  img,
+  span,
+  label,
+  input,
+  select,
+  button,
+  ion-icon { display: block; }
+  
+  img { height: auto; }
+  
+  input,
+  select,
+  button {
+    background: none;
+    border: none;
+    font: inherit;
+  }
+  
+  input,
+  select { width: 100%; }
+  
+  button { cursor: pointer; }
+  
+  ion-icon { pointer-events: none; }
+  
+  address { font-style: normal; }
+  
+  html {
+    font-family: var(--ff-spartan);
+    font-size: 10px;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: var(--white);
+    font-size: var(--fs-5);
+    color: var(--cadet-gray);
+  }
+  
+  
+  /* END OF RESET CSS */
+  
+
+
 :root {
   --light: #dfdfdf;
-  --primary: #1976D2;
+  --primary: #006904;
   --light-primary: #CFE8FF;
   --grey: #eee;
   --dark-grey: #AAAAAA;
@@ -226,6 +287,7 @@ body{
 }
 
 .content nav form .form-input{
+  margin-left: 1rem;
   display: flex;
   align-items: center;
   height: 36px;
@@ -315,7 +377,7 @@ body{
 
 .content main{
   width: 100%;
-  padding: 36px 24px;
+  padding: 10px;
   max-height: calc(100vh - 56px);
 }
 

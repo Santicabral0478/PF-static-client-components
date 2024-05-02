@@ -1,8 +1,7 @@
-import Profile from "@/components/Profile";
-import Image from "next/image";
+import HomeMain from "@/components/HomeMain";
 
 export default function Home() {
   return(
-    <Profile/>
+    <HomeMain/>
   )
 }

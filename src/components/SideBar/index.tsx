@@ -14,7 +14,7 @@ export const SideBar = ()=>{
     return(
         <div className = {`sidebar ${close}`}>
         <a href="#" className="logo">
-            <div className="logo-name">X</div>
+            <div className="logo-name">co+</div>
         </a>
         <button style={{marginLeft: "1rem", fontSize: "20px"}} onClick={handleOnClose} >
         ☰

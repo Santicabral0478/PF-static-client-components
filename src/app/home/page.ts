@@ -1,1 +1,1 @@
-exp
+export { default } from "./HomeRoute"
