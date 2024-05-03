@@ -152,7 +152,6 @@
   .sidebar .side-menu li.active a{
     color: var(--success);
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
-    border: 1px solid #f6f6f6;
     box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.249);   
   }
   
