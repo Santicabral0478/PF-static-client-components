@@ -343,6 +343,7 @@
   
   .property{
     margin-top: 5rem;
+    margin-bottom: 8rem;
   }
 
   .property :is(.section-title, .section-text) { text-align: center; }
@@ -1144,6 +1145,8 @@
     .prodmin.section-text { max-width: unset; }
   
   }
-  
-  
-  
+
+  .bottom-cardss{
+    height: 5rem;
+    width: 100%;
+  }

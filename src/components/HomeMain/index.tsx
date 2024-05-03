@@ -669,6 +669,9 @@ const HomeMain = ()=>{
 
           </div>
         </section>
+        <section className="bottom-cardss">
+
+        </section>
     </main>
 )
 }
