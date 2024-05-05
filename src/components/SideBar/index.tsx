@@ -18,7 +18,7 @@ export const SideBar = ()=>{
             setClose("close");
             setCloseBur("");
             setCloseBurA("")
-        }
+        } 
     }
 
 

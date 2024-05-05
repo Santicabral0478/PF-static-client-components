@@ -4,6 +4,7 @@ import Service from "../Service";
 import "./style.css"
 
 const HomeMain = ()=>{
+
   return(
     <main>
         <Banner/>
