@@ -56,17 +56,19 @@
     }
 
     
-  .content nav{
-    height: 56px;
-    background: var(--light);
-    padding: 0 24px 0 0;
-    display: flex;
-    align-items: center;
-    grid-gap: 24px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+    .content nav {
+      height: 56px;
+      background: rgb(187, 187, 187);
+      background: linear-gradient(93deg, #d1d1d1 0%, rgb(205, 205, 205) 100%);
+      padding: 0 24px 0 0;
+      display: flex;
+      align-items: center;
+      grid-gap: 24px;
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      border-radius: 0 0 20px 0;
   }
   
   .content nav::before{
@@ -77,7 +79,7 @@
     bottom: -40px;
     left: 0;
     border-radius: 50%;
-    box-shadow: -20px -20px 0 var(--light);
+    box-shadow: -20px -20px 0 #d1d1d1;
   }
   
   .content nav a{
@@ -89,12 +91,12 @@
     color: var(--dark);
   }
   
-  .content nav form{
-    max-width: 400px;
+  .content nav form {
+    max-width: 250px;
     width: 100%;
     margin-right: auto;
   }
-  
+
   .content nav form .form-input{
     margin-left: 1rem;
     display: flex;
@@ -152,8 +154,8 @@
   }
   
   .content nav .profile img{
-    width: 36px;
-    height: 36px;
+    width: 18rem;
+    height: 5rem;
     object-fit: cover;
     border-radius: 50%;
   }

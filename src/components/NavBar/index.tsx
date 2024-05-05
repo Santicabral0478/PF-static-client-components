@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./style.css";
 export const NavBar = ()=>{
     return(
@@ -18,7 +19,21 @@ export const NavBar = ()=>{
             <input type="checkbox" id="theme-toggle" hidden/>
         
             <a href="#" className="profile">
-                <img src="assets/images/logo.png"/>
+                  <Image
+                    className="logo-norm"
+                    src="/logo-norm.png"
+                    alt="logo" 
+                    width={150} 
+                    height={150} 
+                  />
+                <Image
+                    className="logo-responsive"
+                    src="/logo-responsive.png"
+                    alt="logo" 
+                    width={150}
+                    height={150}
+                  />
+
             </a>
         </nav>
     );
