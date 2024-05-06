@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@501&family=Teachers:ital,wght@0,400..800;1,400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
     --oxford-blue_60: hsla(224, 34%, 13%, 0.6);
     --green-pigment: hsl(142, 76%, 36%);
@@ -117,23 +119,41 @@
   
   .hero-content {
     background-color: var(--oxford-blue_60);
-    padding-block: 180px;
+    padding-block: 120px;
     padding-inline: 40px;
     display: grid;
     grid-template-columns: 1fr;
     place-content: center;
-    text-align: center;
+    text-align: start ;
+  }
+
+  .logo-slogan{
+    width: 15rem;
   }
   
   .hero-title {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 380;
+    font-style: normal;
+
+
     max-width: 16ch;
-    margin-inline: auto;
     color: var(--white);
-    line-height: 1.5;
-    margin-block-end: 20px;
+    line-height: 1.3;
+    margin-block-start: 15px;
+  }
+
+  .hero-text{
+    display: none;
   }
   
   .hero-title .span {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 390;
+    font-style: normal;
+
     display: inline-block;
     background-image: -webkit-linear-gradient(0deg, #2bff43 0%, #63e8a1 100%);
   -webkit-background-clip: text;
@@ -221,15 +241,9 @@
   .hero-form .btn { max-width: 100%; }
   
   
-  /*-----------------------------------*\
-    #MEDIA QUERIES
-  \*-----------------------------------*/
+
   
-  /**
-   * responsive for larger than 640px screen
-   */
-  
-  @media (min-width: 640px) {
+  @media screen and (min-width: 640px) {
   
     /**
      * REUSED STYLE
@@ -295,11 +309,6 @@
      * HERO
      */
   
-    .hero-content {
-      text-align: left;
-      padding-inline: calc(50% - 350px);
-    }
-  
     .hero-title { margin-inline: 0; }
   
     .hero-text { max-width: 50ch; }
@@ -336,14 +345,18 @@
     .hero-form { grid-template-columns: repeat(3, 1fr); }
   
   }
-  
+
   @media (min-width: 1200px) {
   
     /**
      * REUSED STYLE
      */
-  
+
+     .hero-content {
+      padding-inline: calc(50% - 540px);
+  }
+     
     .container,
     .hero-form-wrapper { max-width: 1120px; }
-  
+
   }

@@ -194,11 +194,29 @@
     transition: all 0.3s ease;
   }
   
-  .sidebar .side-menu li.active a{
-    color: var(--success);
+  .sidebar .side-menu li a{
+    color: rgb(30, 30, 30);
     background: linear-gradient(145deg, #d6d6d6, #ffffff);
     box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.249);   
   }
+
+  .sidebar .side-menu li a svg{
+    fill: none;
+    stroke: rgb(30, 30, 30);   
+  }
+
+
+  .sidebar .side-menu li.active a{
+    color: rgb(40, 132, 1);
+    background: linear-gradient(145deg, #d6d6d6, #ffffff);
+    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.249);   
+  }
+
+  .sidebar .side-menu li.active a svg{
+    fill: none;
+    stroke: rgb(41, 132, 1);   
+  }
+
   
   .sidebar.close .side-menu li a {
     width: calc(48px - (4px * 2));
@@ -247,7 +265,7 @@
     gap: 1rem;
   }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1100px) {
     .sidebar  {
       display: flex;
       align-items: center;
@@ -255,7 +273,7 @@
       border-radius: 20px 20px 0 0;
       border: 1px solid #ffffff;
       width: 100%;
-      background: #d8d8d8;
+      background: #bcbcbc;
       box-shadow: 0px 0px 39px -13px rgba(0,0,0,0.75);
       position: fixed;
       height: 6rem;
@@ -280,7 +298,7 @@
     .sidebar .side-menu{
       width: 100%;
       margin: auto;
-      z-index: 999;
+      z-index: -1;
     }
 
 
@@ -330,7 +348,7 @@
     }
 
     .space-responsive-add{
-      width: 2rem;
+      width: 4rem;
     }
 
     /* END ADD BUTTON */

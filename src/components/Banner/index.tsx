@@ -1,3 +1,4 @@
+import Image from "next/image";
 import "./style.css"
 
 export const Banner =()=>{
@@ -9,10 +10,21 @@ export const Banner =()=>{
 
               <div className="hero-bg">
                 <div className="hero-content">
+                  <div className="slogan-con">
+                  <Image
+                    className="logo-slogan"
+                    src="/logo-slogan.png"
+                    alt="logo" 
+                    width={150} 
+                    height={150} 
+                    style={{filter: "invert(100%) brightness(200%)"}}
+                  />
 
                   <h1 className="h1 hero-title">
-                    El Espacio Ideal.<span className="span"><b>Coworking</b></span> Para tu empresa
+                    El Espacio Ideal. <span className="span">Coworking</span> Para tu empresa
                   </h1>
+
+                  </div>
 
                   <p className="hero-text">
                     ¡Descubre y reserva! Una infinidad de oficinas y espacios de Coworking que se adapten a tu ubicacion
@@ -35,49 +47,120 @@ export const Banner =()=>{
                   <div className="input-wrapper">
                     <label className="input-label">Ubicacion</label>
 
-                    <select name="category" id="category" className="dropdown-list">
+                    <div
+                        className="h-20 rounded-xl relative group w-full bg-gray-100 overflow-hidden before:absolute before:w-14 before:h-12 before:content[''] before:right-0 before:bg-green-300 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#f7fac8] border border-gray-300 border-solid"
+                      >
+                        <svg
+                          y="0"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          width="100"
+                          viewBox="0 0 100 100"
+                          preserveAspectRatio="xMidYMid meet"
+                          height="100"
+                          className="w-16 h-16 mr-4 absolute right-0 -rotate-45 stroke-gray-700 top-1.5 group-hover:rotate-0 duration-300"
+                        >
+                          <path
+                            stroke-width="4"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            fill="none"
+                            d="M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z"
+                            className="w-16 h-16 svg-stroke-primary"
+                          ></path>
+                        </svg>
+                        <select
+                          className=" appearance-none hover:placeholder-shown:bg-emerald-500 relative text-gray-600 bg-transparent ring-0 outline-none border border-neutral-500 placeholder-violet-700 font-bold focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5"
+                          style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
+                        >
 
-                      <option value="centro">Centro</option>
-                      <option value="norte">Zona norte</option>
-                      <option value="sur">Zona Sur</option>
-                      <option value="automatico">Automatico</option>
-
-                    </select>
+                          <option style={{fontSize: "13px"}}>iduchisd</option>
+                          <option style={{fontSize: "13px"}}>React</option>
+                          <option style={{fontSize: "13px"}}>Vue</option>
+                          <option style={{fontSize: "13px"}}>Angular</option>
+                          <option style={{fontSize: "13px"}}>Svelte</option>
+                        </select>
+                      </div>
                   </div>
 
                   <div className="input-wrapper">
-                    <label className="input-label">Precio</label>
+                    <label className="input-label">Ubicacion</label>
 
-                    <select name="min-price" id="min-price" className="dropdown-list">
+                    <div
+                        className="h-20 rounded-xl relative group w-full bg-gray-100 overflow-hidden before:absolute before:w-14 before:h-12  before:rotate-90 before:content[''] before:right-0 before:bg-green-300 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#eef9b0] border border-gray-300 border-solid"
+                      >
+                        <svg
+                          y="0"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          width="100"
+                          viewBox="0 0 100 100"
+                          preserveAspectRatio="xMidYMid meet"
+                          height="100"
+                          className="w-16 h-16 mr-4 absolute right-0 -rotate-45 stroke-gray-700 top-1.5 group-hover:rotate-0 duration-300"
+                        >
+                          <path
+                            stroke-width="4"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            fill="none"
+                            d="M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z"
+                            className="w-16 h-16 svg-stroke-primary"
+                          ></path>
+                        </svg>
+                        <select
+                          className=" appearance-none hover:placeholder-shown:bg-emerald-500 relative text-gray-600 bg-transparent ring-0 outline-none border border-neutral-500 placeholder-violet-700 font-bold focus:ring-violet-500 focus:border-violet-500 block w-full p-2.5"
+                          style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
+                        >
 
-                      <option value="min price">Menor precio</option>
-                      <option value="500">Mayor precio</option>
-                      <option value="1000">1000</option>
-                      <option value="2000">2000</option>
-                      <option value="3000">3000</option>
-                      <option value="4000">4000</option>
-                      <option value="5000">5000</option>
-                      <option value="6000">6000</option>
-
-                    </select>
+                          <option style={{fontSize: "13px"}}>iduchisd</option>
+                          <option style={{fontSize: "13px"}}>React</option>
+                          <option style={{fontSize: "13px"}}>Vue</option>
+                          <option style={{fontSize: "13px"}}>Angular</option>
+                          <option style={{fontSize: "13px"}}>Svelte</option>
+                        </select>
+                      </div>
                   </div>
 
                   <div className="input-wrapper">
-                    <label className="input-label">Metros Cuadrados</label>
+                    <label className="input-label">Ubicacion</label>
 
-                    <select name="max-price" id="max-price" className="dropdown-list">
+                    <div
+                        className="h-20 rounded-xl relative group w-full bg-gray-100 overflow-hidden before:absolute before:w-14 before:h-12 before:rotate-45 before:content[''] before:right-0 before:bg-yellow-300 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#aeffa3] border border-gray-300 border-solid"
+                      >
+                        <svg
+                          y="0"
+                          xmlns="http://www.w3.org/2000/svg"
+                          x="0"
+                          width="100"
+                          viewBox="0 0 100 100"
+                          preserveAspectRatio="xMidYMid meet"
+                          height="100"
+                          className="w-16 h-16 mr-4 absolute right-0 -rotate-45 stroke-gray-700 top-1.5 group-hover:rotate-0 duration-300"
+                        >
+                          <path
+                            stroke-width="4"
+                            stroke-linejoin="round"
+                            stroke-linecap="round"
+                            fill="none"
+                            d="M60.7,53.6,50,64.3m0,0L39.3,53.6M50,64.3V35.7m0,46.4A32.1,32.1,0,1,1,82.1,50,32.1,32.1,0,0,1,50,82.1Z"
+                            className="w-16 h-16 svg-stroke-primary"
+                          ></path>
+                        </svg>
+                        <select
+                          className=" appearance-none hover:placeholder-shown:bg-emerald-500 relative text-gray-600 bg-transparent ring-0 outline-none border border-neutral-500 placeholder-green-700 font-bold focus:ring-green-500 focus:border-green-500 block w-full p-2.5"
+                          style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
+                        >
 
-                      <option value="max price">Menor medida</option>
-                      <option value="500">Menor medida</option>
-                      <option value="1000">100</option>
-                      <option value="2000">200</option>
-                      <option value="3000">300</option>
-                      <option value="4000">400</option>
-                      <option value="5000">500</option>
-                      <option value="6000">600</option>
-
-                    </select>
+                          <option style={{fontSize: "13px"}}>iduchisd</option>
+                          <option style={{fontSize: "13px"}}>React</option>
+                          <option style={{fontSize: "13px"}}>Vue</option>
+                          <option style={{fontSize: "13px"}}>Angular</option>
+                          <option style={{fontSize: "13px"}}>Svelte</option>
+                        </select>
+                      </div>
                   </div>
+
 
                   <button style={{display: "block"}} type="submit" className="btn btn-primary">Buscar</button>
 

@@ -3,6 +3,14 @@
 @tailwind utilities;
 
      
+
+
+
+/* Ejemplo de cómo usar la fuente en tus estilos */
+body {
+  font-family: 'Teachers', sans-serif;
+}
+
   *,
   *::before,
   *::after {
@@ -47,7 +55,6 @@
   address { font-style: normal; }
   
   html {
-    font-family: var(--ff-spartan);
     font-size: 10px;
     scroll-behavior: smooth;
   }

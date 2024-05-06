@@ -16,18 +16,18 @@ export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>) {
+}>){
   return (
     <html lang="en">
+      <head>
+        
+      </head>
       <body className={inter.className}>
-        <main>
-          <SideBar/>
-          <h1>hola</h1>
-          <div className="content">
-            <NavBar/>
-            {children}
-          </div>
-        </main>
+        <SideBar/>
+        <div className="content">
+          <NavBar/>
+          {children}
+        </div>
       </body>
     </html>
   );
