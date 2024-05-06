@@ -1,4 +1,4 @@
-import "../Cowoks/style.css"
+import "./style.css"
 export const CoworkCard =()=>{
 
     return(

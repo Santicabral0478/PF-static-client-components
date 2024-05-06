@@ -127,6 +127,10 @@
     text-align: start ;
   }
 
+  .slogan-cont{
+    margin-left: 2rem;
+  }
+
   .logo-slogan{
     width: 15rem;
   }
@@ -344,6 +348,12 @@
   
     .hero-form { grid-template-columns: repeat(3, 1fr); }
   
+  }
+
+  @media screen and (max-width: 1100px){
+    .slogan-cont{
+      margin-left: 0px;
+    }
   }
 
   @media (min-width: 1200px) {

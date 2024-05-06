@@ -10,7 +10,7 @@ export const Banner =()=>{
 
               <div className="hero-bg">
                 <div className="hero-content">
-                  <div className="slogan-con">
+                  <div className="slogan-cont">
                   <Image
                     className="logo-slogan"
                     src="/logo-slogan.png"
@@ -74,11 +74,11 @@ export const Banner =()=>{
                           style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
                         >
 
-                          <option style={{fontSize: "13px"}}>iduchisd</option>
-                          <option style={{fontSize: "13px"}}>React</option>
-                          <option style={{fontSize: "13px"}}>Vue</option>
-                          <option style={{fontSize: "13px"}}>Angular</option>
-                          <option style={{fontSize: "13px"}}>Svelte</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
                         </select>
                       </div>
                   </div>
@@ -113,11 +113,11 @@ export const Banner =()=>{
                           style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
                         >
 
-                          <option style={{fontSize: "13px"}}>iduchisd</option>
-                          <option style={{fontSize: "13px"}}>React</option>
-                          <option style={{fontSize: "13px"}}>Vue</option>
-                          <option style={{fontSize: "13px"}}>Angular</option>
-                          <option style={{fontSize: "13px"}}>Svelte</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
                         </select>
                       </div>
                   </div>
@@ -152,11 +152,11 @@ export const Banner =()=>{
                           style={{height: "5rem", fontSize: "17px", paddingLeft: "17px"}}
                         >
 
-                          <option style={{fontSize: "13px"}}>iduchisd</option>
-                          <option style={{fontSize: "13px"}}>React</option>
-                          <option style={{fontSize: "13px"}}>Vue</option>
-                          <option style={{fontSize: "13px"}}>Angular</option>
-                          <option style={{fontSize: "13px"}}>Svelte</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
+                          <option style={{fontSize: "13px"}}>Ejemplo</option>
                         </select>
                       </div>
                   </div>
