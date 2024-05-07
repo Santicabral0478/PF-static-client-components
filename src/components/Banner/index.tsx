@@ -84,7 +84,7 @@ export const Banner =()=>{
                   </div>
 
                   <div className="input-wrapper">
-                    <label className="input-label">Ubicacion</label>
+                    <label className="input-label">Precio</label>
 
                     <div
                         className="h-20 rounded-xl relative group w-full bg-gray-100 overflow-hidden before:absolute before:w-14 before:h-12  before:rotate-90 before:content[''] before:right-0 before:bg-green-300 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#eef9b0] border border-gray-300 border-solid"
@@ -123,7 +123,7 @@ export const Banner =()=>{
                   </div>
 
                   <div className="input-wrapper">
-                    <label className="input-label">Ubicacion</label>
+                    <label className="input-label">Puntuacion</label>
 
                     <div
                         className="h-20 rounded-xl relative group w-full bg-gray-100 overflow-hidden before:absolute before:w-14 before:h-12 before:rotate-45 before:content[''] before:right-0 before:bg-yellow-300 before:rounded-full before:blur-lg before:[box-shadow:-60px_20px_10px_10px_#aeffa3] border border-gray-300 border-solid"

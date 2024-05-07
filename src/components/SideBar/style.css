@@ -52,7 +52,7 @@
     position: fixed;
     left: 0;
     background: #d1d1d1;
-    width: 230px;
+    width: 200px;
     height: 100%;
     z-index: 2000;
     overflow-x: hidden;
@@ -208,12 +208,10 @@
 
   .sidebar .side-menu li.active a{
     color: rgb(40, 132, 1);
-    background: linear-gradient(145deg, #d6d6d6, #ffffff);
-    box-shadow: 0px 0px 15px -7px rgba(0, 0, 0, 0.249);   
   }
 
   .sidebar .side-menu li.active a svg{
-    fill: none;
+    fill: rgb(58, 187, 3);
     stroke: rgb(41, 132, 1);   
   }
 
@@ -263,6 +261,7 @@
     flex-direction: row;
     align-items: center;
     gap: 1rem;
+    margin-top: 4px;
   }
 
   @media screen and (max-width: 1100px) {
@@ -345,6 +344,7 @@
       margin-inline: auto;
       z-index: -1;
       padding-block: auto;
+      margin-top: 0px;
     }
 
     .space-responsive-add{

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "./style.css";
+import Link from "next/link";
 export const NavBar = ()=>{
     return(
         <nav>
@@ -18,7 +19,7 @@ export const NavBar = ()=>{
             </form>
             <input type="checkbox" id="theme-toggle" hidden/>
         
-            <a href="#" className="profile">
+            <Link href="/" className="profile">
                   <Image
                     className="logo-norm"
                     src="/logo-norm.png"
@@ -34,7 +35,7 @@ export const NavBar = ()=>{
                     height={150}
                   />
 
-            </a>
+            </Link>
         </nav>
     );
 }

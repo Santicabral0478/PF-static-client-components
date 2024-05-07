@@ -7,8 +7,28 @@ export const CoworkCard =()=>{
                 <img src="https://assets.oyoroomscdn.com/cmsMedia/large/ff7d4187-e22a-4d97-996d-b307919997db.jpg" width="800" height="533" loading="lazy"
                 alt="espacio 5" className="img-cover"/>
             </figure>
-            <button className="card-action-btn" aria-label="add to favourite">
-                <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+            <button className="card-action-btn favourite-btn " aria-label="add to favourite">
+                <div className="heart-container" title="Like">
+            <input type="checkbox" className="checkbox" id="Give-It-An-Id"/>
+            <div className="svg-container">
+                <svg viewBox="0 0 24 24" className="svg-outline">
+                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Zm-3.585,18.4a2.973,2.973,0,0,1-3.83,0C4.947,16.006,2,11.87,2,8.967a4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,11,8.967a1,1,0,0,0,2,0,4.8,4.8,0,0,1,4.5-5.05A4.8,4.8,0,0,1,22,8.967C22,11.87,19.053,16.006,13.915,20.313Z">
+                    </path>
+                </svg>
+                <svg viewBox="0 0 24 24" className="svg-filled">
+                    <path d="M17.5,1.917a6.4,6.4,0,0,0-5.5,3.3,6.4,6.4,0,0,0-5.5-3.3A6.8,6.8,0,0,0,0,8.967c0,4.547,4.786,9.513,8.8,12.88a4.974,4.974,0,0,0,6.4,0C19.214,18.48,24,13.514,24,8.967A6.8,6.8,0,0,0,17.5,1.917Z">
+                    </path>
+                </svg>
+                <svg className="svg-celebrate" width="100" height="100">
+                    <polygon points="10,10 20,20"></polygon>
+                    <polygon points="10,50 20,50"></polygon>
+                    <polygon points="20,80 30,70"></polygon>
+                    <polygon points="90,10 80,20"></polygon>
+                    <polygon points="90,50 80,50"></polygon>
+                    <polygon points="80,80 70,70"></polygon>
+                </svg>
+            </div>
+        </div>
             </button>
             <div className="card-content">
                 <h3 className="h3">
@@ -16,41 +36,34 @@ export const CoworkCard =()=>{
                 </h3>
                 <ul className="card-list">
                     <li className="card-item">
-                        <div className="item-icon">
-                          i
-                        </div>
-                        <span className="item-text">8000sqf</span>
+                    <svg viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                     </li>
                     <li className="card-item">
-                        <div className="item-icon">
-                          i
-                        </div>
-                        <span className="item-text">4 Ambientes</span>
+                        <span className="item-text">08:00pm</span>
                     </li>
+                    <span>-</span>
                     <li className="card-item">
-                        <div className="item-icon">
-                          i
-                        </div>
-                        <span className="item-text">4 Baños</span>
+                        <span className="item-text">10:00pm</span>
                     </li>
                 </ul>
                 <div className="card-meta">
                     <div>
-                        <span className="meta-title">Price</span>
-                        <span className="meta-text">$5000</span>
+                        <span className="meta-title">
+                            <svg viewBox="0 0 24 24" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 6.9 8 11.7z"/></svg>
+                            Ubicacion
+                        </span>
+                        <span className="meta-text">La plata 123</span>
                     </div>
                     <div>
-                        <span className="meta-title">Rating</span>
                         <span className="meta-text">
                             <div className="rating-wrapper">
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
-                                <span><svg xmlns="http://www.w3.org/2000/svg" className="" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+                                <span><svg  className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+                                <span><svg  className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+                                <span><svg  className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+                                <span><svg  className="rated" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
+                                <span><svg  className="" viewBox="0 0 24 24" strokeWidth="1" strokeLinecap="butt" strokeLinejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg></span>
                             </div>
-                            <span>5.0(30)</span>
+                            <span className="raing-text" >5.0(30)</span>
                         </span>
                     </div>
                 </div>

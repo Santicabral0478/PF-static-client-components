@@ -15,13 +15,12 @@ export const Coworks = ()=>{
           <ul className="property-list">
 
             <li>
-              <CoworkCard/>                
+                <CoworkCard/>
             </li>
 
             <li>
-              <CoworkCard/>
+                <CoworkCard/>     
             </li>
-
           </ul>
 
         </div>
